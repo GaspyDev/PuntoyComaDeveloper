@@ -1,0 +1,16 @@
+body{
+    background-color: #1e1e1e;
+}
+
+.contenido{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border:solid 2px #3b3b3b;
+    padding: 10px;
+    color: aliceblue;
+}
+.parrafos{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
