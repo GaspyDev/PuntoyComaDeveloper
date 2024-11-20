@@ -1,16 +1,56 @@
+/*
+Variables a utilizar
+*/
+:root{
+    --primari: #0c0c0c;
+    --secondary: #171717;
+    --tertiary: #2e2e2e;
+    --white: #a0a0a0;
+}
 body{
     background-color: #1e1e1e;
+    display: block;
 }
-
+/*
+estilos para el contenido general de textos
+*/
 .contenido{
     width: 70%;
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 10px;
-    border:solid 2px #3b3b3b;
+    border:solid 2px var(--white);
     padding: 10px;
     color: aliceblue;
+
 }
 .parrafos{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
+}
+
+/*
+estilos para el menu
+*/
+.navegacion{
+    width: 70%;
+    margin: 10px auto;
+}
+.menu_navegacion{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navegacion .menu_navegacion li{
+    float: left;
+}
+.navegacion .menu_navegacion li:hover{
+    background-color: var(--primari);
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
