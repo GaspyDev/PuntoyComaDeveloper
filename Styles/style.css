@@ -31,26 +31,3 @@ estilos para el contenido general de textos
 /*
 estilos para el menu
 */
-.navegacion{
-    width: 70%;
-    margin: 10px auto;
-}
-.menu_navegacion{
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.navegacion .menu_navegacion li{
-    float: left;
-}
-.navegacion .menu_navegacion li:hover{
-    background-color: var(--primari);
-}
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
