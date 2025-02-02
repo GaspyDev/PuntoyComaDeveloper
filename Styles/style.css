@@ -5,7 +5,8 @@ Variables a utilizar
     --primari: #0c0c0c;
     --secondary: #171717;
     --tertiary: #2e2e2e;
-    --white: #a0a0a0;
+    --orillas: #ff9c3f;
+    --orillaz: #ffbe81;
 }
 body{
     background-color: #1e1e1e;
@@ -15,10 +16,10 @@ body{
 estilos para el contenido general de textos
 */
 .contenido{
-    width: 70%;
+    width: 60%;
     margin: 10px auto;
     border-radius: 10px;
-    border:solid 2px var(--white);
+    border:solid 2px var(--orillas);
     padding: 10px;
     color: aliceblue;
 
@@ -26,6 +27,30 @@ estilos para el contenido general de textos
 .parrafos{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
+}
+.informacion{
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    color: aliceblue;
+
+}
+.contenido span{
+    color: #0c0c0c;
+    background-color: var(--orillas);
+    width: 40%;
+    font-size: xx-large;
+    border-radius: 0 20px 20px 0;
+    padding: 5px;
+}
+
+
+.contactanosviawhats{
+    width: 20%;
+    margin: 0 auto;
+}
+.contactanosviawhats img{
+    width: 100%;
 }
 
 /*

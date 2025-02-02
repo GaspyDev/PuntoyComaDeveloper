@@ -2,14 +2,14 @@ const template=document.createElement('template');
 template.innerHTML=
         `<nav class="navegacion">
         <ul class="menu_navegacion">
-            <li><a href="/Scripts/declaracion.html">Privacidad</a></li>
-            <li><a href="/Scripts/declaracion.html">Privacidad</a></li>
-            <li><a href="/Scripts/declaracion.html">Privacidad</a></li>
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/Pantallas/ServicioTecnico.html">Servicio Tecnico</a></li>
+            <li><a href="/Pantallas/declaracion.html">Privacidad</a></li>
         </ul>
     </nav>
     <style>
         .navegacion{
-    width: 70%;
+    width: 60%;
     margin: 10px auto;
 }
 .menu_navegacion{
@@ -17,12 +17,13 @@ template.innerHTML=
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: var(--orillas);
 }
 .navegacion .menu_navegacion li{
     float: left;
 }
 .navegacion .menu_navegacion li:hover{
-    background-color: var(--primari);
+    background-color: #ffbe81;
 }
 li a{
     display: block;
