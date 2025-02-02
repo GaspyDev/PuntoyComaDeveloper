@@ -2,9 +2,9 @@ const template=document.createElement('template');
 template.innerHTML=
         `<nav class="navegacion">
         <ul class="menu_navegacion">
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/Pantallas/ServicioTecnico.html">Servicio Tecnico</a></li>
-            <li><a href="/Pantallas/declaracion.html">Privacidad</a></li>
+            <li><a href="https://gaspydev.github.io/PuntoyComaDeveloper/">Inicio</a></li>
+            <li><a href="https://gaspydev.github.io/PuntoyComaDeveloper/Pantallas/ServicioTecnico.html">Servicio Tecnico</a></li>
+            <li><a href="https://gaspydev.github.io/PuntoyComaDeveloper/Pantallas/declaracion.html">Privacidad</a></li>
         </ul>
     </nav>
     <style>
